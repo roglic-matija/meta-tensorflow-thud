@@ -18,8 +18,7 @@ Signed-off-by: Hongxu Jia <hongxu.jia@windriver.com>
 
 diff --git a/third_party/grpc/src/core/support/log_linux.c b/third_party/grpc/src/core/support/log_linux.c
 index 93a0c1b..367c921 100755
---- a/third_party/grpc/src/core/support/log_linux.c
-+++ b/third_party/grpc/src/core/support/log_linux.c
+
 @@ -54,7 +54,7 @@
  #include <sys/syscall.h>
  #include <unistd.h>
