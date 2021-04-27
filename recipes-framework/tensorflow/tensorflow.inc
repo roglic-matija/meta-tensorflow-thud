@@ -3,7 +3,7 @@ LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=01e86893010a1b87e69a213faa753ebd"
 
 DEPENDS = "bazel-native protobuf-native util-linux-native protobuf"
-SRCREV = "c8875cbb1341f6ca14dd0ec908f1dde7d67f7808"
+SRCREV = "0bb228bfcd6e8065f67510fd0a44483d2258f78f"
 SRC_URI = "git://github.com/tensorflow/tensorflow.git;branch=r1.14 \
            file://0001-SyntaxError-around-async-keyword-on-Python-3.7.patch \
            file://0001-support-musl.patch \
