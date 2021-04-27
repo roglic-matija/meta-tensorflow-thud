@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=3b83ef96387f14655fc854ddc3c6bd57"
 SRC_URI[md5sum] = "5ee1a2bc666f2d0166c7915b647da5be"
 SRC_URI[sha256sum] = "d350f80e70654932db252db380d2ec0144a00e86f8d9f2b4c799ffdb48e9cdd1"
 
-SRC_URI = "https://github.com/bazelbuild/bazel/releases/download/4.0.0/bazel-4.0.0-dist.zip"
+SRC_URI = "https://github.com/bazelbuild/bazel/releases/download/0.21.0/bazel-0.21.0-dist.zip"
 
 inherit native python3native
 
