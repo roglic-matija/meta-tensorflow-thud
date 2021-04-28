@@ -3,8 +3,8 @@ LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=01e86893010a1b87e69a213faa753ebd"
 
 DEPENDS = "bazel-native protobuf-native util-linux-native protobuf"
-SRCREV = "c8875cbb1341f6ca14dd0ec908f1dde7d67f7808"
-SRC_URI = "git://github.com/tensorflow/tensorflow.git;branch=r1.13 \
+SRCREV = "b695c5e75db57b3c1c820dc221477a23d9618ec0"
+SRC_URI = "git://github.com/roglic-matija/tensorflow-1.13.-Bazel-fixed\
            file://0001-SyntaxError-around-async-keyword-on-Python-3.7.patch \
            file://0001-support-musl.patch \
            file://0001-use-local-bazel-to-workaround-bazel-paralle-issue.patch \
